@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin
-        id="cordova-plugin-yandex-ads"
+        id="cordova-plugin-yandex-ads-gdevelop"
         version="0.0.1"
         xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
 >
-    <name>cordova-plugin-yandex-ads</name>
+    <name>cordova-plugin-yandex-ads-gdevelop</name>
     <description>Cordova plugin for Yandex Ads</description>
     <js-module src="www/yandexads.js" name="YandexAds">
         <clobbers target="YandexAds" />
@@ -26,7 +26,7 @@
             </feature>
             <preference name="android-gradleVersion" value="8.4" />
             <preference name="android-minSdkVersion" value="22" />
-            <preference name="android-targetSdkVersion" value="34" />
+            <preference name="android-targetSdkVersion" value="35" />
             <preference name="GradlePluginKotlinEnabled" value="true" />
         </config-file>
 
